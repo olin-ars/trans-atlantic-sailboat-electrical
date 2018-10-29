@@ -18,6 +18,12 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP D_Zener
+D Zener Diode
+K diode
+F ~
+$ENDCMP
+#
 $CMP R
 D Resistor
 K r res resistor
