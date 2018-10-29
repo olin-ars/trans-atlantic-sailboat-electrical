@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATmega328PB-AU
+D 20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf
+$ENDCMP
+#
+$CMP AVR-ISP-10
+D Atmel 10-pin ISP connector
+K AVR ISP Connector
+F  ~
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP D_Zener
+D Zener Diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP R
+D Resistor
+K r res resistor
+F ~
+$ENDCMP
+#
+#End Doc Library
