@@ -1,0 +1,93 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADP1108AR-12
+D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, 12V fixed output voltage, DIP-8
+K switching buck boost converter step-down step-up
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
+$ENDCMP
+#
+$CMP ADP1108AR-3.3
+D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, 3.3V fixed output voltage, DIP-8
+K switching buck boost converter step-down step-up
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
+$ENDCMP
+#
+$CMP ADP1108AR-5
+D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, 5V fixed output voltage, DIP-8
+K switching buck boost converter step-down step-up
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
+$ENDCMP
+#
+$CMP ATmega328PB-AU
+D 20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf
+$ENDCMP
+#
+$CMP AVR-ISP-10
+D Atmel 10-pin ISP connector
+K AVR ISP Connector
+F  ~
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP D_Zener
+D Zener Diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP LT1073CS-12
+D Micropower DC/DC Converter, Fixed 12V Output Voltage, SO-8
+K Micropower DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1073fa.pdf
+$ENDCMP
+#
+$CMP LT1073CS-5
+D Micropower DC/DC Converter, Fixed 5V Output Voltage, SO-8
+K Micropower DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1073fa.pdf
+$ENDCMP
+#
+$CMP LT1108CS-12
+D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, fixed 12V output voltage, SO-8
+K switching buck boost converter step-down step-up
+F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
+$ENDCMP
+#
+$CMP LT1108CS-5
+D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, fixed 5V output voltage, SO-8
+K switching buck boost converter step-down step-up
+F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
+$ENDCMP
+#
+$CMP R
+D Resistor
+K r res resistor
+F ~
+$ENDCMP
+#
+$CMP USB3_A
+D USB 3.0 A connector
+K usb usb3 connector
+F ~
+$ENDCMP
+#
+$CMP USB5537B
+D 7-port USB 3/2 hub ic
+K usb ic hub 7port usb 3
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00001682C.pdf
+$ENDCMP
+#
+$CMP USB_A
+D USB Type A connector
+K usb usba connector
+F ~
+$ENDCMP
+#
+#End Doc Library
