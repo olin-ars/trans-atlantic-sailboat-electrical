@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:uController_hub-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PIC24:PIC24FV32KA301 U?
+L OARS:PIC24FV32KA301 U?
 U 1 1 5C66DFEB
 P 5800 3850
 F 0 "U?" V 6515 3900 50  0000 C CNN
