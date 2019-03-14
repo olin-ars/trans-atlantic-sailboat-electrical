@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic_Conn_01x03
+# Connector_Generic:Conn_01x03
 #
-DEF Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_01x03 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic_Conn_01x03" 0 -200 50 H V C CNN
+F1 "Connector_Generic:Conn_01x03" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -22,11 +22,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x05
+# Connector_Generic:Conn_01x05
 #
-DEF Connector_Generic_Conn_01x05 J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_01x05 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "Connector_Generic_Conn_01x05" 0 -300 50 H V C CNN
+F1 "Connector_Generic:Conn_01x05" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -47,11 +47,11 @@ X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_02x20_Odd_Even
+# Connector_Generic:Conn_02x20_Odd_Even
 #
-DEF Connector_Generic_Conn_02x20_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_02x20_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 1000 50 H V C CNN
-F1 "Connector_Generic_Conn_02x20_Odd_Even" 50 -1100 50 H V C CNN
+F1 "Connector_Generic:Conn_02x20_Odd_Even" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -142,11 +142,11 @@ X Pin_9 9 -200 500 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R
+# Device:R
 #
-DEF Device_R R 0 0 N Y 1 F N
+DEF Device:R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
+F1 "Device:R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -159,11 +159,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OARS_C
+# OARS:C
 #
-DEF OARS_C C 0 10 N Y 1 F N
+DEF OARS:C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "OARS_C" 25 -100 50 H V L CNN
+F1 "OARS:C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -177,11 +177,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OARS_PIC24FV32KA301
+# OARS:PIC24FV32KA301
 #
-DEF OARS_PIC24FV32KA301 U 0 40 Y Y 1 F N
+DEF OARS:PIC24FV32KA301 U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "OARS_PIC24FV32KA301" 0 100 50 H V C CNN
+F1 "OARS:PIC24FV32KA301" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -209,11 +209,11 @@ X RB4 9 -350 350 100 U 50 50 1 1 T
 ENDDRAW
 ENDDEF
 #
-# Sensor_Motion_BNO055
+# Sensor_Motion:BNO055
 #
-DEF Sensor_Motion_BNO055 U 0 20 Y Y 1 F N
+DEF Sensor_Motion:BNO055 U 0 20 Y Y 1 F N
 F0 "U" -450 650 50 H V R CNN
-F1 "Sensor_Motion_BNO055" 500 650 50 H V R CNN
+F1 "Sensor_Motion:BNO055" 500 650 50 H V R CNN
 F2 "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm" 250 -650 50 H I L CNN
 F3 "" 0 200 50 H I C CNN
 $FPLIST
@@ -252,11 +252,11 @@ X CAP 9 600 -500 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch_SW_Push
+# Switch:SW_Push
 #
-DEF Switch_SW_Push SW 0 40 N N 1 F N
+DEF Switch:SW_Push SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F1 "Switch:SW_Push" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -269,11 +269,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# power_GND
+# power:GND
 #
-DEF power_GND #PWR 0 0 Y Y 1 F P
+DEF power:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

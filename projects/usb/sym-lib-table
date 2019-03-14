@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name OARS)(type Legacy)(uri ${KIPRJMOD}/../../OARS.lib/OARS.lib)(options "")(descr ""))
-)

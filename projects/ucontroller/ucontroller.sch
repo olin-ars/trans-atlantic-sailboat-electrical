@@ -1,19 +1,18 @@
 EESchema Schematic File Version 4
-LIBS:power_adapter-cache
-LIBS:uController_hub-cache
+LIBS:ucontroller-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
-Title ""
-Date ""
+Sheet 1 1
+Title "uController"
+Date "2019-03-14"
 Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Designer: Micheal Remley"
 $EndDescr
 $Comp
 L OARS:PIC24FV32KA301 U2
@@ -218,7 +217,7 @@ Wire Wire Line
 Text Notes 1200 5400 0    50   ~ 0
 Servo Control Connector\nSignals and 12V Power\nOC1, OC2, & OC3 are 5V PWM
 Text Notes 3400 6050 0    50   ~ 0
-1: MCLR, Master Clear\n2: PGEC, Programmer Communication \n3: PGED, Programmer Communication \n4: OC2, PWM for servo #2\n5: OC3, PWM for servo #3\n11: OC1, PWM for servo #1\n14: VCAP, see PIC datasheet\n15: SCK1, SPI Clock\n16: SDO1, SPI Data Out\n17: SDI1, SPI Data In\n18: SS1, Slave Select1 (input)\n19: VSS, Ground\n20: VDD, +5V Supply
+1: MCLR, Master Clear\n2: PGEC, Programmer Communication \n3: PGED, Programmer Communication \n4: OC2, PWM for servo #2\n5: OC3, PWM for servo #3\n11: OC1, PWM for servo #1\n14: VCAP, see PIC datasheet\n15: SCK1, SPI Clock\n16: SDO1, SPI Data Out\n17: SDI1, SPI Data In\n18: SS1, Slave Select1 (input)\n19: VSS, Ground\n20: VDD, VDD5 Supply
 Text Notes 4800 5850 0    50   ~ 0
 SPI Connection:\nPIC operates as Slave\nSDI1 is Master Out/Slave In\nSDO1 is Master In/Slave out\nSS1 is Active-Low Slave Select
 Text Notes 1250 3600 0    50   ~ 0
@@ -1163,24 +1162,20 @@ MCLR
 Wire Wire Line
 	2750 3900 3000 3900
 Text GLabel 5250 3700 0    50   Input ~ 0
-+5V
+VDD5
 Wire Wire Line
 	5250 3700 5250 3850
 Connection ~ 5250 3850
 Wire Wire Line
 	5250 3850 5600 3850
 Text GLabel 1700 1000 1    50   Input ~ 0
-+3V3
+VDD3.3
 Text GLabel 2050 4000 2    50   Input ~ 0
-+5V
+VDD5
 Text GLabel 3000 3400 2    50   Input ~ 0
-+5V
+VDD5
 Wire Wire Line
 	3000 3400 3000 3500
-Text Notes 7000 6650 0    50   ~ 0
-Designer: Michael Remley
-Text Notes 7400 7500 0    50   ~ 0
-uController
 $Comp
 L Connector_Generic:Conn_01x03 J8
 U 1 1 5D52784D
@@ -1272,11 +1267,11 @@ OC2
 Text Label 3100 4700 2    50   ~ 0
 OC3
 Text GLabel 1600 4800 2    50   Input ~ 0
-+12V
+VDD12
 Text GLabel 2250 4800 2    50   Input ~ 0
-+12V
+VDD12
 Text GLabel 2850 4800 2    50   Input ~ 0
-+12V
+VDD12
 Wire Wire Line
 	3350 4000 3900 4000
 Connection ~ 3000 3900
