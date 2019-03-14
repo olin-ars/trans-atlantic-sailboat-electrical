@@ -5,4 +5,4 @@ This repository contains the KiCad projects, footprint libary and schematic libr
 ## Organizational Etiquette
 Please keep all symbols used in any project within the library. Any externally downloded symbols should be put in _/OARS.lib/ext_ and imported into the main symbol library. Likewise, all footprints should be put into the footprint library. All documentation should be appropriately sorted in _/documentation_.
 
-This means that project repositories should contains **only the minimum number of files required for KiCad to operate.**
+This means that project repositories should contains **only the minimum number of files required for KiCad to operate**.
