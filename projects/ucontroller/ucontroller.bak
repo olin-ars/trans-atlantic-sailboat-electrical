@@ -5,14 +5,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title ""
-Date ""
+Title "uController"
+Date "2019-03-14"
 Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Designer: Micheal Remley"
 $EndDescr
 $Comp
 L OARS:PIC24FV32KA301 U2
@@ -1176,10 +1176,6 @@ Text GLabel 3000 3400 2    50   Input ~ 0
 VDD5
 Wire Wire Line
 	3000 3400 3000 3500
-Text Notes 7000 6650 0    50   ~ 0
-Designer: Michael Remley
-Text Notes 7400 7500 0    50   ~ 0
-uController
 $Comp
 L Connector_Generic:Conn_01x03 J8
 U 1 1 5D52784D

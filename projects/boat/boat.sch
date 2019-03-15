@@ -6,8 +6,8 @@ $Descr User 5197 4000
 encoding utf-8
 Sheet 1 4
 Title "Unified Schematic Theory"
-Date "2019-03-13"
-Rev "v1.0"
+Date "2019-03-15"
+Rev "v1.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -435,8 +435,8 @@ $EndSheet
 $Sheet
 S 1800 1350 1550 150 
 U 5C81B2B8
-F0 "uController" 50
-F1 "../ucontroller/uController_hub.sch" 50
+F0 "μ-Controller" 50
+F1 "../ucontroller/ucontroller.sch" 50
 $EndSheet
 $Sheet
 S 1800 1750 1550 150 
